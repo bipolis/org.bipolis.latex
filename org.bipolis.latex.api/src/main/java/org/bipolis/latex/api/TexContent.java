@@ -7,7 +7,7 @@ import org.osgi.annotation.versioning.ConsumerType;
 @ConsumerType
 public interface TexContent {
 
-  TexFile getMainTexFile();
+	TexFile getMainTexFile();
 
-  Collection<TexResource> getTexResources();
+	Collection<TexResource> getTexResources();
 }

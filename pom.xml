@@ -21,6 +21,9 @@
 	</scm>
 	<modules>
 		<module>org.bipolis.latex.api</module>
-		<module>org.bipolis.latex.basic</module>
+		<module>org.bipolis.latex.basic.model</module>
+		<module>org.bipolis.latex.basic.service</module>
+		<module>org.bipolis.latex.servlet</module>
+		<module>org.bipolis.latex.itest</module>
 	</modules>
 </project>

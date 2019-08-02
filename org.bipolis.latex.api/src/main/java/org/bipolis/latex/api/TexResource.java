@@ -7,7 +7,7 @@ import org.osgi.annotation.versioning.ConsumerType;
 @ConsumerType
 public interface TexResource {
 
-  String getName();
+	String getName();
 
-  ByteBuffer getContent();
+	ByteBuffer getContent();
 }

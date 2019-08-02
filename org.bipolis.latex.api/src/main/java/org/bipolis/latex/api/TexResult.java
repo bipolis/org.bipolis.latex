@@ -5,7 +5,8 @@ import org.osgi.annotation.versioning.ConsumerType;
 @ConsumerType
 public interface TexResult {
 
-  TexResource getOutput();
+	String getLogMessage();
 
-  String getLogMessage();
+	TexResource getOutput();
+
 }
